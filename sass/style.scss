@@ -1,0 +1,36 @@
+@import 'compass/reset';
+
+
+/******** Compass sprites starts ********/
+  @import "compass/utilities/sprites";
+/* 
+$social-layout: normal;
+$sprite-spacing: 10px;
+@import "sprite.png";
+@include all-sprite-sprites; 
+*/
+/******** Compass sprites ends ********/
+
+
+/******** Apple text hack starts ********/
+  div, span, a, li, h1, h2, h3, h4, 
+  h5, h6, td, input, textarea, button {
+    -webkit-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    -moz--text-size-adjust: none;
+    text-size-adjust: none;
+    max-height: 999999px;
+  }
+  input[type=text],
+  input[type=password],
+  input[type=submit],
+  textarea {
+    -webkit-appearance: none !important;
+  }
+/******** Apple text hack ends ********/
+
+
+/******** General styles starts ********/
+
+
+/******** General styles ends ********/
