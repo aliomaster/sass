@@ -2,35 +2,58 @@
 
 
 /******** Compass sprites starts ********/
-  @import "compass/utilities/sprites";
+	@import "compass/utilities/sprites";
 /* 
 $social-layout: normal;
 $sprite-spacing: 10px;
-@import "sprite.png";
+@import "sprite/*.png";
 @include all-sprite-sprites; 
 */
 /******** Compass sprites ends ********/
 
 
 /******** Apple text hack starts ********/
-  div, span, a, li, h1, h2, h3, h4, 
-  h5, h6, td, input, textarea, button {
-    -webkit-text-size-adjust: none;
-    -o-text-size-adjust: none;
-    -moz--text-size-adjust: none;
-    text-size-adjust: none;
-    max-height: 999999px;
-  }
-  input[type=text],
-  input[type=password],
-  input[type=submit],
-  textarea {
-    -webkit-appearance: none !important;
-  }
+	div, span, a, li, h1, h2, h3, h4, 
+	h5, h6, td, input, textarea, button {
+		-webkit-text-size-adjust: none;
+		-o-text-size-adjust: none;
+		-moz--text-size-adjust: none;
+		text-size-adjust: none;
+		max-height: 999999px;
+	}
+	input[type=text],
+	input[type=password],
+	input[type=submit],
+	textarea {
+		-webkit-appearance: none !important;
+	}
 /******** Apple text hack ends ********/
 
 
 /******** General styles starts ********/
+/* fonts */
+/* variables */
+$footerSize: px;
 
+html, body {
+	height: 100%;
+}
+body {
+	font-family: "", Arial;
+	color: ;
+}
+#container {
+	min-height: 100%;
+	height: auto !important; /* for IE6 support */
+	height: 100%;
+	margin: 0 auto -$footerSize;
+}
+#puch, #footer {
+	height: $footerSize;
+}
+.wrap {
+	width: px;
+	margin: 0 auto;
+}
 
 /******** General styles ends ********/
