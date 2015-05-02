@@ -46,7 +46,8 @@ body {
 	min-height: 100%;
 	height: auto !important; /* for IE6 support */
 	height: 100%;
-	margin: 0 auto -$footerSize;
+	margin: 0 auto;
+	margin-bottom: -$footerSize;
 }
 #puch, #footer {
 	height: $footerSize;
@@ -57,3 +58,9 @@ body {
 }
 
 /******** General styles ends ********/
+/******** Slick styles ********/
+/* @import url(../css/slick.css);
+@import url(../css/slick-theme.css); */
+
+
+/******** Slick styles ends ********/
