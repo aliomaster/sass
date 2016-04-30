@@ -1,7 +1,7 @@
 @import 'compass/reset';
 
 
-/******** Compass sprites starts ********/
+/******** Compass sprites start ********/
 	@import "compass/utilities/sprites";
 /* 
 $social-layout: normal;
@@ -9,10 +9,10 @@ $sprite-spacing: 10px;
 @import "sprite/*.png";
 @include all-sprite-sprites; 
 */
-/******** Compass sprites ends ********/
+/******** Compass sprites end ********/
 
 
-/******** Apple text hack starts ********/
+/******** Apple text hack start ********/
 	div, span, a, li, h1, h2, h3, h4, 
 	h5, h6, td, input, textarea, button {
 		-webkit-text-size-adjust: none;
@@ -27,10 +27,10 @@ $sprite-spacing: 10px;
 	textarea {
 		-webkit-appearance: none !important;
 	}
-/******** Apple text hack ends ********/
+/******** Apple text hack end ********/
 
 
-/******** General styles starts ********/
+/******** General styles start ********/
 /* fonts */
 /* variables */
 $footerSize: px;
@@ -39,7 +39,7 @@ html, body {
 	height: 100%;
 }
 body {
-	font-family: "", Arial;
+	font-family: "", sans-serif;
 	color: ;
 }
 #main-container {
@@ -57,8 +57,8 @@ body {
 	margin: 0 auto;
 }
 
-/******** General styles ends ********/
+/******** General styles end ********/
 /******** Other styles ********/
 
 
-/******** Other styles ends ********/
+/******** Other styles end ********/
